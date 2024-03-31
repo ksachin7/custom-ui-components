@@ -11,7 +11,7 @@ export default defineConfig({
     sourcemap: true,      // Generate sourcemaps for debugging
     rollupOptions: {
       input: {
-        main: 'src/main.js' // adjust this according to your entry file
+        main: 'src/main.jsx' // adjust this according to your entry file
       },
       output: {
         manualChunks: () => 'ignored' // This disables bundling
