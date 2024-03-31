@@ -1,0 +1,112 @@
+# Compiled files
+*.o
+*.pyc
+*.class
+
+# Temporary files
+*~
+*.swp
+*.tmp
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swn
+*.user
+*.suo
+*.cache
+*.DS_Store
+
+# Build/Dependency directories
+dist/
+node_modules/
+bower_components/
+
+# Logs and generated files
+logs/
+*.log
+npm-debug.log*
+
+# Environment configuration
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.staging
+.env.production
+
+# Compiled binary files
+/bin/
+/build/
+/out/
+/dist/
+/venv/
+/__pycache__/
+/.gradle/
+/.idea/
+
+# Image thumbnails
+*.iml
+*.ipr
+*.iws
+
+# macOS-specific files
+.DS_Store
+*Icon
+*Icon?
+*Icon\r
+# Windows-specific files
+Thumbs.db
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# React specific
+node_modules/
+build/
+coverage/
+npm-debug.log*
+yarn-error.log*
+*.env
+
+# Node.js specific
+.npm/
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# not-including
+ultimate-react-course-main/
+practice/
+
+*__mocks__/
+
+*Checkbox.jsx
+*FileUploader.jsx
+*Tables.jsx
+*Forms.jsx
+*TextExpander.jsx
+*StarRatings.jsx
+*Pagination.jsx
+*Datagrid.jsx
+
+# ui-fundamentals/
+interview.prep.txt
+*test.*
+!/ui-fundamentals/src/tests/*
+*prettierrc
+*jsconfig.json
+*sandbox.config.json
+!.git/COMMIT_EDITMSG
+.github/workflows/
+.vercel

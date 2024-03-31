@@ -1,0 +1,28 @@
+{
+    "presets": [
+        "@babel/preset-react", // Preset for React
+        [
+            "@babel/preset-env", // Preset for environment
+            {
+                // "modules": false
+            }
+        ]
+    ],
+    "plugins": [
+        "syntax-dynamic-import", // Plugin for dynamic import syntax
+        [
+            "@babel/plugin-transform-runtime", // Plugin for transforming runtime
+            {
+                "regenerator": true // Option to enable regenerator
+            }
+        ]
+    ],
+    // Environment specific configurations
+    "env": {
+        "test": { // Configuration for test environment
+            "plugins": [
+                "dynamic-import-node" // Plugin for dynamic imports in node environment
+            ]
+        }
+    }
+}
