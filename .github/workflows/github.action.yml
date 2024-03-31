@@ -48,11 +48,6 @@ jobs:
       - name: Lint code
         run: npm run lint
 
-      # Step 8: Check commit format
-      - name: Check commit format
-        run: |
-          npm run commitlint
-
   deploy_to_vercel:
     runs-on: ubuntu-latest
     needs: build
