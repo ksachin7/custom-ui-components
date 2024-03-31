@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component renders with custom props 1`] = `ShallowWrapper {}`;
+
+exports[`Select component renders with default props 1`] = `ShallowWrapper {}`;
