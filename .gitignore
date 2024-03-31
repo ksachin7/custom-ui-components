@@ -106,5 +106,5 @@ interview.prep.txt
 *jsconfig.json
 *sandbox.config.json
 !.git/COMMIT_EDITMSG
-.github/workflows/
+# .github/workflows/
 .vercel
