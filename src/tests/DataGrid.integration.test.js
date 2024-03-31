@@ -1,6 +1,5 @@
-import React from 'react';
-import {styled} from 'jest-styled-components';
-import { shallow, mount } from 'enzyme';
+import React from 'react'; // eslint-disable-line no-unused-vars
+import { shallow } from 'enzyme';
 import DataGrid from '../components/DataGrid';
 
 describe('DataGrid Integration Test', () => {
