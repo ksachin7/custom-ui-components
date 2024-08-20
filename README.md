@@ -1,4 +1,4 @@
-# UI Fundamentals
+# Custom UI Components
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square) [![Vercel Deployment](https://img.shields.io/badge/Vercel-Success-brightgreen?style=flat-square&logo=vercel)](https://react-testing-cicd-qx9ikxpae-sachins-projects-73c22b5f.vercel.app)  
 This project aimed to create reusable UI components using React and styled-components. It includes a variety of components such as buttons, accordions, select dropdowns, spinners, and more. The components are designed to be highly customizable and support dark mode.  
